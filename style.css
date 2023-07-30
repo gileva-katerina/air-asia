@@ -35,7 +35,7 @@ p {
 }
 
 .main-page-wrapper {
-    background: url("/air-asia/img/1.png") center top no-repeat, url("/air-asia/img/2.png") center bottom 165px no-repeat;
+    background: url(/air-asia/img/1.png) center top no-repeat, url(/air-asia/img/2.png) center bottom 165px no-repeat;
 }
 
 .container {
