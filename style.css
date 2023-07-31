@@ -36,7 +36,7 @@ p {
 }
 
 .main-page-wrapper {
-    background: url(./img/1.png) center top no-repeat, url(./img/2.png) center bottom 165px no-repeat;
+    background: url(/air-asia/image/1.png) center top no-repeat, url(/air-asia/image/2.png) center bottom 165px no-repeat;
 }
 
 .container {
@@ -318,7 +318,7 @@ p {
     vertical-align: top;
     width: 490px;
     height: 505px;
-    background: url(./img/gates.png) center center / cover no-repeat;
+    background: url(/air-asia/image/gates.png) center center / cover no-repeat;
 }
 
 .about {
@@ -327,7 +327,7 @@ p {
 }
 
 .about__content {
-    background: url(./img/mountains.png) center center / cover no-repeat;
+    background: url(/air-asia/image/mountains.png) center center / cover no-repeat;
     padding: 69px 81px;
     width: 785px;
     height: 455px;
@@ -408,35 +408,35 @@ p {
 }
 
 .socials__item--icon--telegram .socials__link {
-    background-image: url('./img/t.png');
+    background-image: url('/air-asia/image/t.png');
 }
 
 .socials__item--icon--telegram .socials__link:hover {
-    background-image: url('./img/t-hover.png');
+    background-image: url('/air-asia/image/t-hover.png');
 }
 
 .socials__item--icon--vk .socials__link {
-    background-image: url('./img/vk.png');
+    background-image: url('/air-asia/image/vk.png');
 }
 
 .socials__item--icon--vk .socials__link:hover {
-    background-image: url('./img/vk-hover.png');
+    background-image: url('/air-asia/image/vk-hover.png');
 }
 
 .socials__item--icon--facebook .socials__link {
-    background-image: url('./img/f.png');
+    background-image: url('/air-asia/image/f.png');
 }
 
 .socials__item--icon--facebook .socials__link:hover {
-    background-image: url('./img/f-hover.png');
+    background-image: url('/air-asia/image/f-hover.png');
 }
 
 .socials__item--icon--instagram .socials__link {
-    background-image: url('./img/in.png');
+    background-image: url('/air-asia/image/in.png');
 }
 
 .socials__item--icon--instagram .socials__link:hover {
-    background-image: url('./img/in-hover.png');
+    background-image: url('/air-asia/image/in-hover.png');
 }
 
 .contasts__free-call {
