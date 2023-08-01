@@ -36,7 +36,7 @@ p {
 }
 
 .main-page-wrapper {
-    background: url(/air-asia/img/1.png) center top no-repeat, url(/air-asia/img/2.png) center bottom 165px no-repeat;
+    background: url(./img/1.png) center top no-repeat, url(./img/2.png) center bottom 165px no-repeat;
 }
 
 .container {
@@ -195,11 +195,11 @@ p {
     margin-right: 6px;
 }
 
-.hot-tours__night {
+.hot-tours__option-title {
     vertical-align: middle;
 }
 
-.hot-tours__night:last-child {
+.hot-tours__option-title:last-child {
     margin-right: 0;
 }
 
@@ -207,7 +207,7 @@ p {
     color: #303030;
     font-size: 14px;
     line-height: 1.5;
-    margin-bottom: 25px;
+    margin-bottom: 24px;
 }
 
 .btn__short {
@@ -337,7 +337,7 @@ li.paginator__item {
     vertical-align: top;
     width: 490px;
     height: 505px;
-    background: url(/air-asia/img/gates.png) center center / cover no-repeat;
+    background: url(./img/gates.png) center center / cover no-repeat;
 }
 
 .about {
@@ -346,7 +346,7 @@ li.paginator__item {
 }
 
 .about__content {
-    background: url(/air-asia/img/mountains.png) center center / cover no-repeat;
+    background: url(./img/mountains.png) center center / cover no-repeat;
     padding: 68px 81px;
     width: 785px;
     height: 455px;
@@ -390,14 +390,10 @@ li.paginator__item {
 }
 
 .logo--footer {
-    display: block;
-    position: absolute;
     top: 47px;
-    left: 0px;
 }
 
 .menu--footer {
-    position: absolute;
     top: 58px;
     left: 164px;
 }
@@ -427,35 +423,35 @@ li.paginator__item {
 }
 
 .socials__item--icon--telegram .socials__link {
-    background-image: url('/air-asia/img/t.png');
+    background-image: url('./img/t.png');
 }
 
 .socials__item--icon--telegram .socials__link:hover {
-    background-image: url('/air-asia/img/t-hover.png');
+    background-image: url('./img/t-hover.png');
 }
 
 .socials__item--icon--vk .socials__link {
-    background-image: url('/air-asia/img/vk.png');
+    background-image: url('./img/vk.png');
 }
 
 .socials__item--icon--vk .socials__link:hover {
-    background-image: url('/air-asia/img/vk-hover.png');
+    background-image: url('./img/vk-hover.png');
 }
 
 .socials__item--icon--facebook .socials__link {
-    background-image: url('/air-asia/img/f.png');
+    background-image: url('./img/f.png');
 }
 
 .socials__item--icon--facebook .socials__link:hover {
-    background-image: url('/air-asia/img/f-hover.png');
+    background-image: url('./img/f-hover.png');
 }
 
 .socials__item--icon--instagram .socials__link {
-    background-image: url('/air-asia/img/in.png');
+    background-image: url('./img/in.png');
 }
 
 .socials__item--icon--instagram .socials__link:hover {
-    background-image: url('/air-asia/img/in-hover.png');
+    background-image: url('./img/in-hover.png');
 }
 
 .contasts__free-call {
