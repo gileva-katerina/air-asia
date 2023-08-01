@@ -36,7 +36,7 @@ p {
 }
 
 .main-page-wrapper {
-    background: url(/air-asia/img/1.png) center top no-repeat, url(/air-asia/img/2.png) center bottom 165px no-repeat;
+    background: url(./img/1.png) center top no-repeat, url(./img/2.png) center bottom 165px no-repeat;
 }
 
 .container {
@@ -176,27 +176,38 @@ p {
 .hot-tours__subtitle {
     font-weight: bold;
     font-size: 24px;
-    margin-bottom: -4px;
+    margin-bottom: 22px;
 }
 
 .hot-tours__options {
-    margin-bottom: 24px;
-    display: inline-block;
+    margin-bottom: 22px;
+    margin-left: 6px;
 }
 
-.hot-tous__options-block {
+.hot-tours__options-block {
     color: #666666;
+    display: inline-block;
+    margin-right: 24px;
 }
 
 .hot-tours__image {
     vertical-align: middle;
+    margin-right: 8px;
+}
+
+.hot-tours__night {
+    vertical-align: middle;
+}
+
+.hot-tours__night:last-child {
+    margin-right: 0;
 }
 
 .hot-tours__text {
     color: #303030;
     font-size: 14px;
     line-height: 1.5;
-    margin-bottom: 23px;
+    margin-bottom: 25px;
 }
 
 .btn__short {
@@ -232,7 +243,7 @@ p {
 .news__title {
     font-size: 36px;
     font-weight: bold;
-    margin-bottom: 51px;
+    margin-bottom: 50px;
 }
 
 .news__list {
@@ -271,14 +282,14 @@ p {
 
 .news__date {
     font-size: 14px;
-    margin-bottom: 13px;
+    margin-bottom: 12px;
     display: inline-block;
 }
 
 .news__subtitle {
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 
 .paginator {
@@ -318,7 +329,7 @@ p {
     vertical-align: top;
     width: 490px;
     height: 505px;
-    background: url(/air-asia/img/gates.png) center center / cover no-repeat;
+    background: url(./img/gates.png) center center / cover no-repeat;
 }
 
 .about {
@@ -327,8 +338,8 @@ p {
 }
 
 .about__content {
-    background: url(/air-asia/img/mountains.png) center center / cover no-repeat;
-    padding: 69px 81px;
+    background: url(./img/mountains.png) center center / cover no-repeat;
+    padding: 68px 81px;
     width: 785px;
     height: 455px;
     position: absolute;
@@ -340,7 +351,7 @@ p {
 }
 
 .about__title {
-    font-size: 36px;
+    font-size: 37px;
     font-weight: bold;
     color: #060606;
     margin-bottom: 35px;
@@ -373,14 +384,14 @@ p {
 .logo--footer {
     display: block;
     position: absolute;
-    bottom: 10px;
+    top: 47px;
     left: 0px;
 }
 
 .menu--footer {
     position: absolute;
-    bottom: 17px;
-    left: 163px;
+    top: 58px;
+    left: 164px;
 }
 
 .socials {
@@ -408,35 +419,35 @@ p {
 }
 
 .socials__item--icon--telegram .socials__link {
-    background-image: url('/air-asia/img/t.png');
+    background-image: url('./img/t.png');
 }
 
 .socials__item--icon--telegram .socials__link:hover {
-    background-image: url('/air-asia/img/t-hover.png');
+    background-image: url('./img/t-hover.png');
 }
 
 .socials__item--icon--vk .socials__link {
-    background-image: url('/air-asia/img/vk.png');
+    background-image: url('./img/vk.png');
 }
 
 .socials__item--icon--vk .socials__link:hover {
-    background-image: url('/air-asia/img/vk-hover.png');
+    background-image: url('./img/vk-hover.png');
 }
 
 .socials__item--icon--facebook .socials__link {
-    background-image: url('/air-asia/img/f.png');
+    background-image: url('./img/f.png');
 }
 
 .socials__item--icon--facebook .socials__link:hover {
-    background-image: url('/air-asia/img/f-hover.png');
+    background-image: url('./img/f-hover.png');
 }
 
 .socials__item--icon--instagram .socials__link {
-    background-image: url('/air-asia/img/in.png');
+    background-image: url('./img/in.png');
 }
 
 .socials__item--icon--instagram .socials__link:hover {
-    background-image: url('/air-asia/img/in-hover.png');
+    background-image: url('./img/in-hover.png');
 }
 
 .contasts__free-call {
@@ -446,8 +457,8 @@ p {
 
 .contacts--footer {
     position: absolute;
-    bottom: 0px;
-    right: 2px;
+    top: 46px;
+    right: 0px;
     font-style: normal;
     text-align: right;
 }
