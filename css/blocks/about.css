@@ -1,0 +1,45 @@
+.about:before {
+    display: block;
+    content: '';
+    width: 490px;
+    height: 505px;
+    background: url(../../img/gates.png) center center / cover no-repeat;
+}
+
+.about {
+    display: flex;
+    position: relative;
+    margin-bottom: 53px;
+}
+
+.about__content {
+    background: url(../../img/mountains.png) center center / cover no-repeat;
+    padding: 68px 81px;
+    width: 785px;
+    height: 455px;
+    min-height: 120px;
+    margin-left: -136px;
+    margin-top: 97px;
+}
+
+.about__title {
+    font-size: 37px;
+    font-weight: bold;
+    color: #060606;
+    margin-bottom: 35px;
+}
+
+.about__content p {
+    color: #060606;
+    margin-bottom: 41px;
+    width: 502px;
+    line-height: 1.7;
+}
+
+.about__text p {
+    margin-bottom: 20px;
+}
+
+.about__text p:last-child {
+    margin-bottom: 0px;
+}
