@@ -1,0 +1,44 @@
+.btn {
+    background: #F5170E;
+    border-radius: 35px;
+    padding: 18px 40px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.btn__short {
+    background: #F5170E;
+    border-radius: 35px;
+    padding: 17px 29px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.btn__short:hover {
+    background: #F5170E;
+    color: #FFFFFF;
+    transition: background .3s;
+}
+
+.btn:hover {
+    background: #F5170E;
+    color: #FFFFFF;
+    transition: background .3s;
+}
+
+.btn--border {
+    background: transparent;
+    color: #F5170E;
+    border-color: #F5170E;
+}

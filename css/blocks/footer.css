@@ -1,0 +1,40 @@
+.footer-container__content {
+    border-top: 1px solid #9A9A9A;
+}
+
+.footer {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.footer__column {
+    display: flex;
+    align-items: center;
+}
+
+.footer_column--align--right {
+    align-items: flex-end;
+}
+
+.footer-container__section {
+    height: 91px;
+}
+
+/* .footer--bottom .logo {
+    top: 47px;
+}
+
+.footer--bottom .menu {
+    top: 58px;
+    left: 164px;
+}
+
+.footer--bottom .contacts {
+    position: absolute;
+    top: 46px;
+    right: 0px;
+    font-style: normal;
+    text-align: right;
+} */
