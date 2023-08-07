@@ -9,6 +9,7 @@
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
+    border: 1px solid transparent;
 }
 
 .btn__short {

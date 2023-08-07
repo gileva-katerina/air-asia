@@ -51,14 +51,14 @@
 }
 
 .hot-tours__options {
+    display: flex;
     margin-bottom: 22px;
     margin-left: 6px;
 }
 
 .hot-tours__options-block {
     color: #666666;
-    display: inline-block;
-    margin-right: 28px;
+    margin-right: 27px;
 }
 
 .hot-tours__image {

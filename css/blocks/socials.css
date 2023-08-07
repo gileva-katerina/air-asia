@@ -1,5 +1,5 @@
 .socials {
-    margin-right: 74px;
+    margin: 10px 73px 0 0;
 }
 
 .socials__link {
@@ -10,10 +10,12 @@
     background: center center no-repeat;
 }
 
+.socials__list {
+    display: flex;
+}
+
 .socials__item {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 6px;
+    margin-right: 10px;
 }
 
 .socials__item:last-child {
