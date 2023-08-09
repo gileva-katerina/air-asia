@@ -1,6 +1,6 @@
-.wrapper-services {
+/* .wrapper-services {
     min-width: 1920px;
-}
+} */
 
 .top-line {
     display: flex;
@@ -71,7 +71,7 @@
 }
 
 .services__item:last-child {
-    margin-right: 0px;
+    margin-bottom: 0px;
 }
 
 .service__img {
