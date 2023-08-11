@@ -1,0 +1,172 @@
+.page-title--review {
+    margin-bottom: 65px;
+}
+
+.reviews {
+    column-count: 2;
+    column-gap: 27px;
+    margin-bottom: 48px;
+}
+
+.review {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 50px 30px 36px;
+    background: #F4F5F5;
+}
+
+.reviews__item {
+    margin-bottom: 17px;
+}
+
+.review__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 27px;
+}
+
+.avatar {
+    width: 142px;
+    height: 142px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.review__user {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #2E77A4;
+    margin-bottom: 3px;
+    margin-left: 21px;
+}
+
+.review__user--inactive {
+    color: #1A1B1E;
+    text-decoration: none;
+}
+
+.review__user:after {
+    content: url("/img/vk-blue.png");
+    height: 24px;
+}
+
+.review__tags {
+    display: flex;
+    align-items: flex-start;
+}
+
+.tag {
+    font-size: 13px;
+    color: #303030;
+    padding: 9px 18px;
+    border-radius: 50px;
+    background: #E7E7E7;
+}
+
+.tag--bg--color {
+    background: #B9EAE4;
+}
+
+.review__title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #1A1B1E;
+    margin-bottom: 13px;
+}
+
+.review__content-text {
+    color: #818181;
+    margin-bottom: 46px;
+    line-height: 1.7;
+}
+
+.review__date {
+    font-size: 14px;
+    color: #1A1B1E;
+    font-weight: bold;
+}
+
+.seperator {
+    background: #FFFFFF;
+    min-height: 363px;
+}
+
+.seperator {
+    display: flex;
+    justify-content: center;
+    background: url(/img/banner.png) center center / cover no-repeat;
+}
+
+.inner-section__title--margin {
+    margin-top: -27px;
+    margin-bottom: 57px;
+    margin-left: -2px;
+}
+
+.form__row {
+    display: flex;
+    margin-bottom: 28px;
+}
+
+.form__input {
+    flex: 1;
+    margin-right: 30px;
+    border-radius: 5px;
+    border: none;
+    background: #FFFFFF;
+    padding: 20px 28px;
+    font-size: 18px;
+    color: #1A1B1E;
+}
+
+.form__input:last-child {
+    margin-right: 0;
+}
+
+.form__input:placeholder {
+    color: #666666;
+}
+
+.form__input--textarea {
+    height: 235px;
+    width: 1142px;
+    padding: 31px 29px;
+}
+
+.form__controls {
+    display: flex;
+}
+
+.form__controls-title {
+    width: 37%;
+    font-size: 18px;
+    color: #1A1B1E;
+    margin-top: 6px;
+}
+
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    margin-top: -14px;
+}
+
+.controls__item {
+    margin-bottom: -8px;
+    margin-right: 10px;
+    padding: 9px 13px 9px;
+}
+
+.controls__elem {
+    cursor: pointer;
+}
+
+.controls__checkbox:checked ~ .controls__tag {
+    background: #B9EAE4;
+}
+
+.controls__checkbox {
+    display: none;
+}
