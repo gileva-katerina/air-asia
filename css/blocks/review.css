@@ -32,14 +32,17 @@
     border-radius: 50%;
 }
 
+.review__userdata {
+    margin-left: 21px;
+}
+
 .review__user {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     font-size: 24px;
     font-weight: bold;
     color: #2E77A4;
     margin-bottom: 3px;
-    margin-left: 21px;
 }
 
 .review__user--inactive {
@@ -48,8 +51,9 @@
 }
 
 .review__user:after {
-    content: url("/img/vk-blue.png");
+    content: url(../../img/vk-blue.png);
     height: 24px;
+    margin-left: 6px;
 }
 
 .review__tags {
@@ -89,20 +93,30 @@
 }
 
 .seperator {
-    background: #FFFFFF;
+    background: url(../../img/couple.png) right 23% bottom no-repeat, url(../../img/rectangle.png) center center / cover no-repeat;
     min-height: 363px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.seperator {
-    display: flex;
-    justify-content: center;
-    background: url(/img/banner.png) center center / cover no-repeat;
+.separator__content {
+    max-width: 52%;
+}
+
+.separator__title {
+    font-size: 48px;
+    font-weight: bold;
 }
 
 .inner-section__title--margin {
     margin-top: -27px;
     margin-bottom: 57px;
     margin-left: -2px;
+}
+
+.form {
+    margin-bottom: 45px;
 }
 
 .form__row {
@@ -114,7 +128,7 @@
     flex: 1;
     margin-right: 30px;
     border-radius: 5px;
-    border: none;
+    border: 1px solid transparent;
     background: #FFFFFF;
     padding: 20px 28px;
     font-size: 18px;
@@ -129,34 +143,40 @@
     color: #666666;
 }
 
+.form__input:focus {
+    border-color: #F5170E;
+}
+
 .form__input--textarea {
     height: 235px;
     width: 1142px;
-    padding: 31px 29px;
+    padding: 28px 29px;
 }
 
 .form__controls {
     display: flex;
+    margin-bottom: 33px;
 }
 
 .form__controls-title {
-    width: 37%;
+    width: 38%;
     font-size: 18px;
     color: #1A1B1E;
-    margin-top: 6px;
+    margin-top: 4px;
 }
 
 .controls {
     display: flex;
     flex-wrap: wrap;
     flex: 1;
-    margin-top: -14px;
+    margin-bottom: -10px;
+    margin-right: -8px;
+    margin-top: -7px;
 }
 
 .controls__item {
-    margin-bottom: -8px;
-    margin-right: 10px;
-    padding: 9px 13px 9px;
+    margin-bottom: 10px;
+    margin-right: 8px;
 }
 
 .controls__elem {
@@ -169,4 +189,17 @@
 
 .controls__checkbox {
     display: none;
+}
+
+.form__btns {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form__btn {
+    margin-right: 20px;
+}
+
+.form__btn:last-child {
+    margin-right: 0;
 }

@@ -143,6 +143,7 @@
 
 .partners__link:hover {
     filter: grayscale(0);
+    transition: .5s;
 }
 
 .inner-footer__container {

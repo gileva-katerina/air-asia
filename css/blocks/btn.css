@@ -12,6 +12,11 @@
     border: 1px solid transparent;
 }
 
+.btn--color--orange {
+    background: #DA0100;
+    padding: 18px 58px;
+}
+
 .btn__short {
     background: #F5170E;
     border-radius: 35px;
@@ -42,4 +47,18 @@
     background: transparent;
     color: #F5170E;
     border-color: #F5170E;
+}
+
+.btn--color--black {
+    background: #2B2B2B;
+}
+
+.btn--color--orange:hover {
+    background: #F5170E;
+    transition: background .3s;
+}
+
+.btn--color--black:hover {
+    background: #8E8E8E;
+    transition: background .3s;
 }
