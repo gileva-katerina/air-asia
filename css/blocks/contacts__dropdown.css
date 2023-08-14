@@ -3,7 +3,7 @@
 }
 
 .contacts__dropdown:hover .contacts__dropdown-menu {
-    left: 0;
+    right: 0;
     opacity: 1;
 }
 
@@ -23,7 +23,7 @@
     margin-top: 5px;
     opacity: 0;
     transition: opacity .4s;
-    left: -9999px;
+    right: -9999px;
     margin-right: 0;
 }
 
@@ -37,6 +37,16 @@
     right: 41px;
     transform: rotate(45deg);
     background: #EDEDED;
+}
+
+.contacts__dropdown-menu:before {
+    content: "";
+    display: block;
+    height: 30px;
+    left: 0;
+    right: 0;
+    top: -29px;
+    position: absolute;
 }
 
 .contacts__dropdown-item {

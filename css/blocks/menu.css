@@ -15,6 +15,10 @@
     text-decoration: none;
 }
 
+.menu__link--active {
+    color: #DA0100;
+}
+
 .menu__link:hover {
     color: #DA0100;
     transition: .5s;
